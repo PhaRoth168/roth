@@ -1,0 +1,208 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3edf7;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(42, 228, 245);
+    padding: 10px 20px;
+    
+    color: #212121;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e91e63;
+    height: auto;
+    margin-right: 20px;
+    
+}
+.main-menu {
+    margin-left: 20px; /* Adjust this value to increase or decrease space */
+}
+nav {
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #e50909;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.4s ease;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.introduction {
+    background-color: rgb(237, 116, 10);
+    color: white;
+    
+    text-align: center;
+    margin-top: 1rem;
+}
+.introduction h1 {
+    color: rgb(45, 145, 5);
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.introduction img {
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 1rem;
+}
+/* Topic Section */
+.teamMembers {
+    background-color: #9f9cf2;
+    color: black;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+/*  Team-m Section */
+.Team-m {
+    text-align: left;
+    color: #e50909;
+}
+
+.Team-m h2 {  /* Added this for team heading style */
+    color: #e6cd0f;
+    text-align: center;
+}
+.Team-m p {  /* Added this for team heading style */
+    color: #000000;
+    text-align: left;
+}
+
+/* TC Section */
+.TC {
+    color: rgb(225, 64, 56);
+    text-align: center;
+}
+
+/* Purpose Section */
+.Purpose {
+    background-color: #8c88f5;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.Purpose h1 {
+    color: rgb(26, 125, 206);
+    text-align: center;
+}
+
+/* Materials Section */
+.Materials {
+    background-color: #0bbd58;
+    color: rgb(18, 203, 203);
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.Materials h1 {
+    text-align: center;
+    color: #e50909;
+}
+.Materials-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 8px;
+}
+
+.Materials-card{
+    border-radius: 8px;
+    color: #28067e;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(249, 193, 109);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.Materials-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+  }
+.results {
+    background-color: #09e552;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.results h1 {
+    
+    color: rgb(202, 65, 43);
+    text-align: center;
+   
+}
+.preface {
+    background-color: #e39de8;
+    color: rgb(18, 203, 203);
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.preface h1 {
+   
+    color: rgb(22, 207, 41);
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.preface p {
+   
+    color:yellow;
+    text-align: left;
+   
+}
+.impressions {
+    background-color: #3d37dc;
+    color: rgb(108, 215, 37);
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.impressions p {
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+}
+/* Content Section */
+.contantUs {    /* Corrected spelling */
+    padding: 2rem;
+    text-align: center;
+    background-color: black;
+    color: #9f9cf2;
+    margin-top: 1rem;
+}
+
+/* Footer Section */
+footer {
+    background-color: rgb(54, 53, 56);
+    color: #958eb5;
+    text-align: center;
+    padding: 1rem;
+}
